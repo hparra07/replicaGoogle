@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body{
+    background: #FFFFFF;
+    font-size: 81.25%;
+    margin: 0;
+    height: 100vh;
+}
+
+header ul {
+    margin-left: 10px;
+    border-bottom: 1px solid #dadce0;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 3px 0 3px 10px;
+    padding: 5px;
+}
+
+header ul li:hover{
+    background-color: #ECECEC;
+    border-radius: 15px;
+    cursor: default;
+    padding: 5px;
+    transition: ease-in .2s #ECECEC;
+}
+
+header ul li img{
+    padding-right: 10px;
+}
+
+main{
+    height: auto;
+}
+
+.menuRight{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu ul li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+}
+
+.menu2 img{
+    height: 35px;
+    padding: 7px;
+    margin-left: 5px;
+/*     color de icono: #5f6368; */
+}
+
+.menu2 img:hover{
+    background-color: #ECECEC;
+    cursor: pointer;    
+    border-radius: 35px;
+}
+
+.menu2 button{
+    background: #1A73E8;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-left: 20px;
+    margin-right: 8px;
+    padding: 9px 23px;
+    border-radius: 4px;
+    min-width: 96px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.menu2 button:hover{
+    box-shadow: rgba(61, 119, 206, 0.623) 0 1px 3px;
+    background: #1A73E8;
+    opacity: 95%;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    max-height: 92px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cont1{
+    margin: 0 auto;
+    width: calc(632px + 8px);
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative
+}
+
+.cont2{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 650px;
+    max-width: 584px;
+}
+
+.cont2:hover{
+    box-shadow: rgba(148, 150, 153, 0.623) 0 1px 6px;
+}
+
+.cont3{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.cont4{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.cont5{
+    margin: auto;
+}
+
+.span1{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    color: #9AA0A6;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.cont6{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.cont7{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+
+.input-form{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.cont8{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.cont9{
+    padding-right: 4px;
+    background: transparent;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: row;
+    display: flex;
+    cursor: pointer;
+}
+
+.cont10{
+    background: transparent;
+    border: 0;
+    align-items: center;
+    flex: 1 0 auto;
+    cursor: pointer;
+    display: none; /*Ver como activar y desactivar la X*/
+    height: 100%;
+    line-height: 44px;
+    outline: none;
+    padding: 0 12px;
+}
+
+.span2{
+    height: 100%;
+    color: #70757a;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.cont11{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 40px;
+    line-height: 44px;
+}
+
+.cont11 button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.buttons{
+    height: 70px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit{
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    color: #3C4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-submit:hover{
+    box-shadow: rgba(148, 150, 153, 0.623) 0 1px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+}
+
+.language a{
+    text-decoration: none;
+}
+
+.language a:hover{
+    text-decoration: underline;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.div1, .div2{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757A;
+}
+
+.listaUno, .listaDos, ul{
+    list-style: none;
+}
+
+.listaUno, .listaDos, ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.listaUno, .listaDos, ul li a{
+    text-decoration: none;
+    color: #70757A;
+}
+
+.listaUno a:hover{
+    text-decoration: underline;
+}
+
+.listaDos a:hover{
+    text-decoration: underline;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px 20px;
+}
+
+  /* MODAL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    background: #FFFFFF;
+    cursor: default;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+}
+  
+.modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+    
+.modal-dialog{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-dialog > * {
+    padding: 1rem;
+}
+    
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.modal-header .close-modal {
+    font-size: 1rem;
+    color: #70757A;
+    font-weight: 600;
+    height: 48px;
+    opacity: .6;
+}
+
+.modal-content{
+    display: flex;
+}
+
+.modal-content p{
+    font-size: 30px;
+    color: #70757A;
+    height: 48px;
+    opacity: .6;
+}
+  
