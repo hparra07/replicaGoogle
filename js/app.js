@@ -1,3 +1,6 @@
+
+//----------------MODAL
+
 const openEls = document.querySelectorAll("[data-open]");
 const closeEls = document.querySelectorAll("[data-close]");
 const isVisible = "is-visible";
@@ -29,6 +32,7 @@ document.addEventListener("keyup", e => {
 });
 
 
+//------------------SEARCH SUBMIT
 
 document.querySelector('.form').addEventListener('submit', () => {
     event.preventDefault()
@@ -42,3 +46,15 @@ document.documentElement.addEventListener('keyup', (evt) => {
         }
     }
 })
+
+//-----------------SEARCH ONCLICK
+
+let searchUno = document.querySelector('.btn-submit').addEventListener('click', search)
+
+function search (){
+  
+  let voiceText = document.querySelector('.input-form').value
+      if(voiceText.length > 0){
+      window.location.href = 'https://www.google.com/search?q=' + voiceText
+  }
+}
