@@ -35,7 +35,7 @@ header ul li img{
 }
 
 main{
-    height: 84vh;
+    min-height: 80vh;
 }
 
 .menuRight{
@@ -329,6 +329,7 @@ main{
 }
 
 footer{
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #F2F2F2;
@@ -457,4 +458,8 @@ footer{
     opacity: 1;
 }
 
-    
+/* .main {
+    min-height: 80vh;
+}
+
+     */

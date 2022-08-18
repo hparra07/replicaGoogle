@@ -32,7 +32,7 @@ document.addEventListener("keyup", e => {
 });
 
 
-//------------------SEARCH SUBMIT
+//------------------SUBMIT SEARCH 
 
 document.querySelector('.form').addEventListener('submit', () => {
     event.preventDefault()
@@ -47,7 +47,7 @@ document.documentElement.addEventListener('keyup', (evt) => {
     }
 })
 
-//-----------------SEARCH ONCLICK
+//-----------------ONCLICK SEARCH 
 
 let searchUno = document.querySelector('.btn-submit').addEventListener('click', search)
 
@@ -57,4 +57,38 @@ function search (){
       if(voiceText.length > 0){
       window.location.href = 'https://www.google.com/search?q=' + voiceText
   }
+}
+
+//------------------VOICE SEARCH
+
+document.querySelector('.microphone').addEventListener('click', voiceOpen)
+document.querySelector('.modal-content').addEventListener('click', voiceRecognition)
+let microOk = false
+
+function voiceOpen () {
+  voiceRecognition()
+}
+
+function voiceRecognition () {
+    if (microOk == false) {
+      window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
+      if ('SpeechRecognition' in window) {
+        console.log('Parar el código hasta dar click');
+      }
+    }
+
+    document.querySelector('.speak').innerHTML = 'Listening...'
+    let recognition = new window.SpeechRecognition
+
+    recognition.onresult = (event) => {
+        let voiceText = event.results[0][0].transcript
+        //document.querySelector('.speak').innerHTML = voiceText
+        recognition.stop()
+        
+        setTimeout(() => {
+          window.location.href = 'https://www.google.com/search?q=' + voiceText
+        },1000)
+      }
+
+    recognition.start()
 }
