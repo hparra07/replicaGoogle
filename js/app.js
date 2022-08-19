@@ -92,3 +92,16 @@ function voiceRecognition () {
 
     recognition.start()
 }
+
+//---------------- NAV
+
+document.querySelector('').addEventListener('click', openMenu)
+document.querySelector('').addEventListener('click', openProfile)
+
+const nav = document.querySelector()
+const openNavProfile = document.querySelector()
+
+let navClose = true
+let closeNavProfile = true
+
+let zIndex = 20

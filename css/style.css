@@ -11,7 +11,7 @@ body{
     margin: 0;
 }
 
-header ul {
+/* header ul {
     margin-left: 10px;
     border-bottom: 1px solid #dadce0;
 }
@@ -36,7 +36,7 @@ header ul li img{
 
 main{
     min-height: 80vh;
-}
+} */
 
 .menuRight{
     display: flex;
@@ -71,16 +71,17 @@ main{
 .menu2{
     display: flex;
     align-items: center;
+    overflow-y: hidden;
 }
 
-.menu2 img{
+.menu2 > img{
     height: 35px;
     padding: 7px;
     margin-left: 5px;
 /*     color de icono: #5f6368; */
 }
 
-.menu2 img:hover{
+.menu2 > img:hover{
     background-color: #ECECEC;
     cursor: pointer;    
     border-radius: 35px;
@@ -109,6 +110,78 @@ main{
     box-shadow: rgba(61, 119, 206, 0.623) 0 1px 3px;
     background: #1A73E8;
     opacity: 95%;
+}
+
+.submenu-item img{
+    height: 40px;
+}
+
+.submenu-item p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #444444;
+}
+
+.submenu-item{
+    border-radius: 6px;
+    margin: 2px 4px;
+    padding: 5px 12px;
+    width: 90px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.submenu-item:hover{
+    background-color: rgb(218, 232, 248);
+}
+
+.div-menu{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 65px 15px;
+    width: 315px;
+    height: 440px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px;
+    overflow-y: scroll;
+    border: 1px solid #BBBBBB;
+    text-align: center;
+    box-shadow: rgba(20, 20, 20, 0.623) 0 1px 5px;
+/*     display: none; */
+}
+
+.div-menu::-webkit-scrollbar{
+    width: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.div-menu::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0, 0.15);
+    -webkit-box-shadow: inset -1px -1px 0 rgba(0,0,0, 0.05), inset 1px 1px 0 rgba(0,0,0, 0.05);
+    background: #DAdCE0;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.div-menu::-webkit-scrollbar-track{
+    margin: 4px;
+    padding: 4px;
+}
+
+.menu3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px 5px 30px 5px;
 }
 
 .banner{
