@@ -597,6 +597,11 @@ footer{
     .div2{
         display: none;
     }
+
+    .modal-content{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
