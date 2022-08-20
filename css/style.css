@@ -78,7 +78,6 @@ main{
     height: 35px;
     padding: 7px;
     margin-left: 5px;
-/*     color de icono: #5f6368; */
 }
 
 .menu2 > img:hover{
@@ -89,7 +88,6 @@ main{
 
 .menu2 button{
     background: #1A73E8;
-    color: #FFFFFF;
     border: 1px solid transparent;
     cursor: pointer;
     font-weight: 500;
@@ -112,33 +110,12 @@ main{
     opacity: 95%;
 }
 
-.submenu-item img{
-    height: 40px;
-}
-
-.submenu-item p{
-    margin-top: 10px;
-    font-size: 15px;
-    color: #444444;
-}
-
-.submenu-item{
-    border-radius: 6px;
-    margin: 2px 4px;
-    padding: 5px 12px;
-    width: 90px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-.submenu-item:hover{
-    background-color: rgb(218, 232, 248);
+.menu2 button a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .div-menu{
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
     position: absolute;
     right: 0;
     top: 0;
@@ -152,7 +129,7 @@ main{
     border: 1px solid #BBBBBB;
     text-align: center;
     box-shadow: rgba(20, 20, 20, 0.623) 0 1px 5px;
-/*     display: none; */
+    display: none;
 }
 
 .div-menu::-webkit-scrollbar{
@@ -174,6 +151,18 @@ main{
 .div-menu::-webkit-scrollbar-track{
     margin: 4px;
     padding: 4px;
+
+}
+.div-menu button{
+    background-color: #FFFFFF;
+    color: #1A73E8;
+    border: 1px solid #DAdCE0;
+}
+
+.div-menu button:hover{
+    background-color: rgb(249, 252, 255);
+    box-shadow: none;
+    border: 1px solid rgb(201, 226, 250);
 }
 
 .menu3{
@@ -181,7 +170,37 @@ main{
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    margin: 10px 5px 30px 5px;
+    margin: -2px -20px 10px -8px;
+}
+
+.submenu-item img{
+    height: 40px;
+}
+
+.submenu-item p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #444444;
+}
+
+.submenu-item{
+    border-radius: 6px;
+    margin: 5px 4px;
+    padding: 6px 2px;
+    width: 90px;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.submenu-item:hover{
+    background-color: rgb(235, 244, 255);
+    overflow-x: visible;
+}
+
+.border{
+    border-top: 1px solid #DAdCE0;
+    margin-left: -20px;
 }
 
 .banner{
@@ -191,7 +210,6 @@ main{
 
 .banner img{
     max-height: 92px;
-    position: relative;
     margin-top: 16px;
 }
 
@@ -207,7 +225,6 @@ main{
     padding-top: 6px;
     width: auto;
     max-width: 584px;
-    position: relative
 }
 
 .cont2{
@@ -444,8 +461,7 @@ footer{
     padding: 13px 20px;
 }
 
-  /* MODAL
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* MODAL–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .modal {
     position: fixed;
     top: 0;
@@ -536,3 +552,51 @@ footer{
 }
 
      */
+
+/* -----------MEDIAS QUERIES----------- */
+
+@media (min-width: 1400px) and (max-width: 1800px){
+    
+    .banner{
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 431px) and (max-width: 600px) {
+
+    .menuRight{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+
+    .banner{
+        margin-top: 100px;
+    }
+
+    .cont2{
+        width: 480px;
+    }
+
+    .div2{
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .banner{
+        margin-top: 100px;
+    }
+
+    .cont2{
+        width: 380px;
+    }
+
+    .div2{
+        display: none;
+    }
+}
+
+

@@ -95,13 +95,18 @@ function voiceRecognition () {
 
 //---------------- NAV
 
-document.querySelector('').addEventListener('click', openMenu)
-document.querySelector('').addEventListener('click', openProfile)
+document.querySelector('.icon-menu').addEventListener('click', openMenu)
 
-const nav = document.querySelector()
-const openNavProfile = document.querySelector()
+const nav = document.querySelector('.div-menu')
 
 let navClose = true
-let closeNavProfile = true
 
-let zIndex = 20
+function openMenu () {
+    if (navClose == true) {
+      nav.style.display = 'block'
+      navClose = false
+    }else {
+      nav.style.display = 'none'
+      navClose = true
+    }
+}

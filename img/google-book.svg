@@ -1,29 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="svg61" inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)" sodipodi:docname="Google_Play_Books_icon_(2016).svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 437.5 500"
-	 enable-background="new 0 0 437.5 500" xml:space="preserve">
-<g>
-	<g>
-		<path fill="#01579B" d="M417.6,221.9L48.3,6.5C32.6-2.6,18.6-1.8,9.6,7C3.6,13,0,22.5,0,35.2v429.7c0,12.7,3.6,22.2,9.6,28.1
-			c8.8,8.7,22.9,9.7,38.7,0.5l369.3-215.2C444.1,262.5,444.1,237.2,417.6,221.9z"/>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="218.7487" y1="500" x2="218.7487" y2="7.871653e-03">
-			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
-			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
-		</linearGradient>
-		<path fill="url(#SVGID_1_)" d="M417.6,221.9L48.3,6.5C32.6-2.6,18.6-1.8,9.6,7C3.6,13,0,22.5,0,35.2v429.7
-			c0,12.7,3.6,22.2,9.6,28.1c8.8,8.7,22.9,9.7,38.7,0.5l369.3-215.2C444.1,262.5,444.1,237.2,417.6,221.9z"/>
-		<path opacity="0.1" fill="#FFFFFF" d="M417.4,223.7L48.2,9.4C21.6-6,0,6.7,0,37.7v-2.8C0,3.9,21.6-8.9,48.2,6.5l369.4,214.1
-			c13.8,8,20.5,18.7,19.9,29.3C436.6,240.4,430.1,231,417.4,223.7z"/>
-	</g>
-	<g>
-		<path fill="#40DCFF" d="M358,62.5H125v386.4l250-145.7V79.3C375,70.1,367.3,62.5,358,62.5z"/>
-		<polygon fill="#009BF0" points="62.5,62.5 62.5,485.3 125,448.9 125,62.5 		"/>
-		<path opacity="0.2" fill="#FFFFFF" d="M357.9,65.5H125v-3h232.7c9.5,0,17.3,8,17.3,17.9v3c0-4.7-1.7-9.3-5-12.6
-			C366.8,67.4,362.4,65.5,357.9,65.5z"/>
-		<rect x="62.5" y="62.5" opacity="0.15" fill="#FFFFFF" width="62.5" height="3"/>
-		<polygon fill="#FAFAFA" points="261.6,62.5 326.4,62.5 326.4,161.4 293.7,142.8 261.6,161.4 		"/>
-	</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0px" height="px" viewBox="0 0 219 250" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="218.7487" y1="500" x2="218.7487" y2="0.00787165" gradientTransform="matrix(0.5,0,0,0.5,0.125,0)">
+<stop offset="0" style="stop-color:rgb(100%,100%,100%);stop-opacity:0;"/>
+<stop offset="1" style="stop-color:rgb(100%,100%,100%);stop-opacity:0.101961;"/>
+</linearGradient>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="219" height="250" style="fill:rgb(0%,0%,0%);fill-opacity:0.101961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="219" height="250"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 208.824219 111.851562 L 24.226562 4.699219 C 10.925781 -3 0.125 3.351562 0.125 18.851562 L 0.125 17.449219 C 0.125 1.949219 10.925781 -4.449219 24.226562 3.25 L 208.925781 110.300781 C 215.824219 114.300781 219.175781 119.648438 218.875 124.949219 C 218.425781 120.199219 215.175781 115.5 208.824219 111.851562 Z M 208.824219 111.851562 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="219" height="250" style="fill:rgb(0%,0%,0%);fill-opacity:0.2;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="219" height="250"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 179.074219 32.75 L 62.625 32.75 L 62.625 31.25 L 178.976562 31.25 C 183.726562 31.25 187.625 35.25 187.625 40.199219 L 187.625 41.699219 C 187.625 39.351562 186.773438 37.050781 185.125 35.398438 C 183.523438 33.699219 181.324219 32.75 179.074219 32.75 Z M 179.074219 32.75 "/>
+</g>
+<mask id="mask2">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="219" height="250" style="fill:rgb(0%,0%,0%);fill-opacity:0.14902;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip3">
+  <rect x="0" y="0" width="219" height="250"/>
+</clipPath>
+<g id="surface11" clip-path="url(#clip3)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 31.375 31.25 L 62.625 31.25 L 62.625 32.75 L 31.375 32.75 Z M 31.375 31.25 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0.392157%,34.117647%,60.784314%);fill-opacity:1;" d="M 208.925781 110.949219 L 24.273438 3.25 C 16.425781 -1.300781 9.425781 -0.898438 4.925781 3.5 C 1.925781 6.5 0.125 11.25 0.125 17.601562 L 0.125 232.449219 C 0.125 238.800781 1.925781 243.550781 4.925781 246.5 C 9.324219 250.851562 16.375 251.351562 24.273438 246.75 L 208.925781 139.148438 C 222.175781 131.25 222.175781 118.601562 208.925781 110.949219 Z M 208.925781 110.949219 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 208.925781 110.949219 L 24.273438 3.25 C 16.425781 -1.300781 9.425781 -0.898438 4.925781 3.5 C 1.925781 6.5 0.125 11.25 0.125 17.601562 L 0.125 232.449219 C 0.125 238.800781 1.925781 243.550781 4.925781 246.5 C 9.324219 250.851562 16.375 251.351562 24.273438 246.75 L 208.925781 139.148438 C 222.175781 131.25 222.175781 118.601562 208.925781 110.949219 Z M 208.925781 110.949219 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(25.098039%,86.27451%,100%);fill-opacity:1;" d="M 179.125 31.25 L 62.625 31.25 L 62.625 224.449219 L 187.625 151.601562 L 187.625 39.648438 C 187.625 35.050781 183.773438 31.25 179.125 31.25 Z M 179.125 31.25 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,60.784314%,94.117647%);fill-opacity:1;" d="M 31.375 31.25 L 31.375 242.648438 L 62.625 224.449219 L 62.625 31.25 Z M 31.375 31.25 "/>
+<use xlink:href="#surface8" mask="url(#mask1)"/>
+<use xlink:href="#surface11" mask="url(#mask2)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(98.039216%,98.039216%,98.039216%);fill-opacity:1;" d="M 130.925781 31.25 L 163.324219 31.25 L 163.324219 80.699219 L 146.976562 71.398438 L 130.925781 80.699219 Z M 130.925781 31.25 "/>
 </g>
 </svg>

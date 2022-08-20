@@ -1,6 +1,9 @@
-<svg width="64" height="88" xmlns="http://www.w3.org/2000/svg">
-	<path fill="#ffba00" d="m58 88h-52c-3.32 0-6-2.68-6-6v-76c0-3.32 2.68-6 6-6h36l22 22v60c0 3.32-2.68 6-6 6z"/>
-	<path fill="#ff9500" d="m42 0 22 22h-22z"/>
-	<path fill="#ffffff" d="m39 59h-14v5h14z"/>
-	<path fill="#ffffff" d="m32 30c-7.18 0-13 5.82-13 13 0 4.64 2.42 8.7 6.08 11h13.8c3.65-2.3 6.08-6.36 6.08-11 0-7.18-5.82-13-13-13z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0px" height="px" viewBox="0 0 32 44" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,72.941176%,0%);fill-opacity:1;" d="M 29 44 L 3 44 C 1.339844 44 0 42.660156 0 41 L 0 3 C 0 1.339844 1.339844 0 3 0 L 21 0 L 32 11 L 32 41 C 32 42.660156 30.660156 44 29 44 Z M 29 44 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,58.431373%,0%);fill-opacity:1;" d="M 21 0 L 32 11 L 21 11 Z M 21 0 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 19.5 29.5 L 12.5 29.5 L 12.5 32 L 19.5 32 Z M 19.5 29.5 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 16 15 C 12.410156 15 9.5 17.910156 9.5 21.5 C 9.5 23.820312 10.710938 25.851562 12.539062 27 L 19.441406 27 C 21.265625 25.851562 22.480469 23.820312 22.480469 21.5 C 22.480469 17.910156 19.570312 15 15.980469 15 Z M 16 15 "/>
+</g>
 </svg>
